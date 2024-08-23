@@ -1,0 +1,52 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: rgb(18, 31, 45);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-container {
+  flex-direction: column;
+}
+
+.main-container {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+}
+
+
+button {
+  padding: 8px;
+  margin: 0 8px;
+}
+
+h1 {
+  margin: 36px 0;
+  text-wrap: nowrap;
+}
+
+splash-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  height: 50%;
+  width: 100%;
+  z-index: -1;
+}
+
+rain-background {
+  z-index: -10;
+}
