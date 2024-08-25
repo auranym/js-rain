@@ -26,6 +26,12 @@ html, body {
   width: fit-content;
 }
 
+.button-container {
+  display: inline-block;
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+}
 
 button {
   padding: 8px;
@@ -39,12 +45,18 @@ h1 {
 
 splash-container {
   position: absolute;
-  left: 0;
-  top: 0;
-  overflow: hidden;
-  height: 50%;
-  width: 100%;
   z-index: -1;
+  width: 100%;
+  height: 60px;
+  left: 0;
+}
+
+.main-container splash-container {
+  top: 0;
+}
+
+.button-container splash-container {
+  top: -60px;
 }
 
 rain-background {

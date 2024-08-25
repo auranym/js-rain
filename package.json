@@ -1,0 +1,21 @@
+{
+  "name": "js-rain",
+  "version": "1.0.0",
+  "description": "Simple rain animations with web components",
+  "scripts": {
+    "build": "npx minify src/rain-background.js > build/rain-background.min.js | npx minify src/splash-container.js > build/splash-container.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auranym/js-rain.git"
+  },
+  "author": "auranym",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auranym/js-rain/issues"
+  },
+  "homepage": "https://github.com/auranym/js-rain#readme",
+  "devDependencies": {
+    "minify": "^11.4.0"
+  }
+}

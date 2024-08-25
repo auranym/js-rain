@@ -89,6 +89,7 @@ class RainBackground extends HTMLElement {
   // --------------------
   //      ANIMATION
   // --------------------
+
   drawDroplets(timestamp) {
 
     if (this.prevTimestamp === -1) this.prevTimestamp = timestamp;
@@ -138,6 +139,7 @@ class RainBackground extends HTMLElement {
   // --------------------
   //   HELPER FUNCTIONS
   // --------------------
+  
   /**
    * Returns a new droplet object, whose position is where it should
    * initially "spawn" in the canvas.

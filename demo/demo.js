@@ -4,6 +4,7 @@ function toggleRain() {
 }
 
 function toggleSplashes() {
-  const splashContainer = document.querySelector("splash-container");
-  splashContainer.style.visibility = splashContainer.style.visibility === "hidden" ? "" : "hidden";
+  for (let splashContainer of document.querySelectorAll("splash-container")) {
+    splashContainer.style.visibility = splashContainer.style.visibility === "hidden" ? "" : "hidden";
+  }
 }
