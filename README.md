@@ -6,7 +6,7 @@ and the
 [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 to add simple stylized rain to web pages with minimal setup.
 
-You can see a demo of this effect here (link pending).
+You can see a demo of this effect [here](https://auranym.github.io/js-rain/demo/demo.html).
 
 ## Setup
 
