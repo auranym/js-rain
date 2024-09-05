@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple rain animations with web components",
   "scripts": {
-    "build": "npx minify src/rain-background.js > build/rain-background.min.js | npx minify src/splash-container.js > build/splash-container.min.js"
+    "build": "npx minify src/rain-background.js > dist/rain-background.min.js | npx minify src/splash-container.js > dist/splash-container.min.js"
   },
   "repository": {
     "type": "git",

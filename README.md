@@ -10,8 +10,13 @@ You can see a demo of this effect [here](https://auranym.github.io/js-rain/demo/
 
 ## Setup
 
-Add the minified scripts found in the [build directory](/build)
+Add the minified scripts found in the [dist directory](/dist)
 to your page (via a `<script>` tag, downloading directly, etc).
+
+```html
+<script type="application/javascript" src="https://cdn.jsdelivr.net/gh/auranym/js-rain@main/dist/splash-container.min.js"></script>
+<script type="application/javascript" src="https://cdn.jsdelivr.net/gh/auranym/js-rain@main/dist/rain-background.min.js"></script>
+```
 
 Now you can use the following web components like standard `HTML` elements.
 
